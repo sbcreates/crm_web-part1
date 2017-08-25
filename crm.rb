@@ -1,5 +1,5 @@
 require 'sinatra'
-require_relative('contact.rb')
+require_relative 'contact.rb'
 
 
 get '/' do
@@ -15,6 +15,14 @@ get '/contacts' do
   ]
 
   erb :contacts
+end
+
+post "/add_contact" do
+
+end
+
+get "/about" do
+
 end
 
 
